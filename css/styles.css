@@ -1,0 +1,404 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.visually-hidden {
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.16;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #111;
+}
+
+.title .accent {
+  color: #fd9222;
+}
+
+/*---------------------------header----------------------------*/
+
+.header {
+}
+
+.header-nav {
+}
+
+.header-logo {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.11;
+  letter-spacing: -0.03em;
+  color: #111;
+}
+
+.header-logo-italic {
+  font-style: italic;
+}
+
+.header-logo-image {
+}
+
+.header-menu-list {
+}
+
+.header-menu-item {
+}
+
+.header-menu-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: -0.02em;
+  color: #111;
+}
+
+.header-menu-link:hover,
+.header-menu-link:focus,
+.header-menu-link:active {
+  color: #fd9222;
+}
+
+.header-soc-list {
+}
+
+.header-soc-item {
+}
+
+.header-soc-link {
+}
+
+/*--------------------------------------------------------*/
+
+/*-----------------------hero-----------------------------*/
+
+.section-hero {
+  background-color: rgba(17, 17, 17, 0.6);
+}
+
+.hero-title {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1.21;
+  letter-spacing: -0.03em;
+  color: #fff;
+}
+
+.hero-button-buy {
+  font-weight: 600;
+  font-size: 14px;
+  color: #fff;
+  background-color: #fd9222;
+}
+
+.hero-button-buy:active {
+  color: #fd9222;
+  background-color: #fcf1e0;
+}
+
+.hero-button-link {
+  font-weight: 600;
+  font-size: 14px;
+  color: #fff;
+}
+
+.hero-scroll-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.03em;
+  color: #fff;
+}
+
+/*-----------------------------------------------------------*/
+
+/* -------------------------features------------------------- */
+
+.features {
+  background-color: #1e1823;
+}
+
+.features-list {
+}
+
+.features-item {
+}
+
+.features-subtitle {
+  font-weight: 600;
+  font-size: 18px;
+  color: #fff;
+}
+
+.features-item-subtitle {
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/* ---------------------------------------------------------- */
+
+/* ---------------------------taste-------------------------- */
+
+.taste {
+}
+
+.taste-title {
+}
+
+.taste-text {
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #111;
+}
+
+.taste-list {
+}
+
+.taste-item {
+}
+
+.taste-image {
+}
+
+.taste-subtitle {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #111;
+}
+
+/* -------------------------------------------------------------- */
+
+/* -------------------------------made----------------------------- */
+
+.made {
+}
+
+.made-title {
+}
+
+.made-subtitle {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.33;
+  color: #111;
+}
+
+.made-image {
+}
+
+.made-list {
+}
+
+.made-item {
+}
+
+.made-text {
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: #111;
+}
+
+/* ------------------------------------------------------ */
+
+/* ----------------------products------------------------ */
+
+.products {
+}
+
+.products-title {
+}
+
+.products-list {
+}
+
+.products-item {
+}
+
+.products-image {
+}
+
+.products-subtitle {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #111;
+}
+
+.products-text {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: -0.02em;
+  color: rgba(17, 17, 17, 0.7);
+}
+
+.products-button {
+  font-weight: 600;
+  font-size: 14px;
+  color: #111;
+}
+
+/* ------------------------------------------------------ */
+
+/* -------------------sellers---------------------------- */
+
+.sellers {
+}
+
+.sellers-title {
+}
+
+.sellers-list {
+}
+
+.sellers-item {
+}
+
+.sellers-image {
+}
+
+.sellers-subtitle {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #111;
+}
+
+/* ------------------------------------------------------ */
+
+/* -------------------loved---------------------------- */
+
+.loved {
+}
+
+.loved-title {
+}
+
+.loved-list {
+}
+
+.loved-item {
+}
+
+.loved-image {
+}
+
+.loved-subtitle {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.33;
+  text-align: center;
+  color: #111;
+}
+
+.loved-text {
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: rgba(17, 17, 17, 0.7);
+}
+
+.loved-btn {
+  font-weight: 600;
+  font-size: 18px;
+  color: #111;
+}
+
+/* ----------------------------------------------------------------- */
+
+/* ------------------------footer---------------------------- */
+
+.footer {
+  background-color: #1e1823;
+}
+
+.footer-text {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1.21;
+  letter-spacing: -0.02em;
+  color: #fd9222;
+}
+
+.footer-accent {
+  color: #fff;
+}
+
+.footer-subtitle {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  text-align: center;
+  color: #fff;
+}
+
+.footer-soc-list {
+}
+
+.footer-soc-item {
+}
+
+.footer-soc-link {
+}
+
+.footer-contacts {
+}
+
+.footer-contacts-list {
+}
+
+.footer-contacts-item {
+}
+
+.footer-contacts-link {
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #fff;
+}
+
+.footer-menu-list {
+}
+
+.footer-menu-item {
+}
+
+.footer-menu-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: -0.02em;
+  color: #fff;
+}
+
+/* ----------------------------------------------------------------- */
